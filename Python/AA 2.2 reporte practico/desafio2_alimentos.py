@@ -18,9 +18,9 @@ def calcular_bonus(num_porcion):
 
 
 
-alimento_grupo_a = ordenar_alimento(preparar_hamburguesa(), 3)
-alimento_grupo_b = ordenar_alimento(preparar_hotdog(), 2)
-alimento_grupo_c = ordenar_alimento(preparar_pizza(), 3)
+alimento_grupo_a = ordenar_alimento(preparar_hamburguesa(), int(input('Ingresa la porcion de la orden:   ')))
+alimento_grupo_b = ordenar_alimento(preparar_hotdog(), int(input('Ingresa la porcion de la orden:   ')))
+alimento_grupo_c = ordenar_alimento(preparar_pizza(), int(input('Ingresa la porcion de la orden:   ')))
 
 print(
     alimento_grupo_a,    
